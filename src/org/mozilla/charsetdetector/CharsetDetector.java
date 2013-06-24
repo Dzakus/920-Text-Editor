@@ -8,8 +8,7 @@ public class CharsetDetector
     
     public static String getEncoding(String file)
     {
-        String encoding = get_encoding(file);
-        return encoding;
+        return get_encoding(file);
     }
     
     private native static String get_encoding(String file);
